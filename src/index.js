@@ -1,6 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const userController = require("../src/users/userController");
+const userController = require("./users/userController");
 const { createClient } = require("@supabase/supabase-js");
 const cors = require("cors");
 
